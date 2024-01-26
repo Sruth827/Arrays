@@ -1,1 +1,9 @@
 # Arrays
+
+https://github.com/Sruth827/Arrays
+
+An array allows you to store a sequence of values in a contiguous location of memory without needing to declare and initialize each value independently.&nbsp; This is very useful because it not only allows for organization but will greatly reduce the amount of code required when dealing with large amounts of information.&nbsp; However, the size of an array does need to be declared and initialized prior to filling it with the sequence.&nbsp; This does create some limitations when dealing with data that may change over time.&nbsp; Additionally the memory that the array occupies is fixed to the amount of the value it contains.&nbsp; Any attempts to access say index 10 of an Array that is 10 values long will create an out of bounds error because Arrays indexing begins at 0, meaning the last index will be 9.&nbsp;
+
+An Array List performs very similar to an array in regard to it being a contiguous sequence of the same value.&nbsp; However, an Array List performs Dynamic Memory Allocation, and its size can be increased and decreased as needed without the need to declare and initialize an entirely new array.&nbsp; For instance, if one array is full and you were to initialize an additional array to account for the data these arrays will exist in two different locations in memory.&nbsp; With an Array List if more data is added then the memory allocation will continue to remain sequence due to this being accounted for at compilation of the program.&nbsp;&nbsp;
+
+Arrays are very useful for smaller data sets whereas Array Lists will be preferable for larger ones.&nbsp; If the data set will need to be updated continuously then Array Lists will be the go-to, an example of this would be a roster of students or database of financial transactions.&nbsp; Both have their functions that if used accordingly can greatly optimize the program as well as make the program easier to understand.&nbsp;
